@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WTF</title> 
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Strona główna</a>
+            <a href="nauka-html.html">Nauka HTML</a>
+        </nav>
+    </header>
+    <main>
+        <header id="top">
+            <h1>
+                NAUKA CSS
+            </h1>
+        </header>
+        Stylujemy pliki html za pomocą CSS <br />
+        Tworzymy plik style.css
+        <section>
+            <header>
+                <h2> Stylowanie Start </h2>
+            </header>
+            <header>
+                <h2 id="stylowanie"> Po elementach (h, body, header)</h2>
+            </header>
+            W pliku style.css możemy zmieniać wygląd poszczególnych części body,np "h2" { color: wybieramy jaki i
+            kończymy zapis ";"}>
+            <p>
+                Możemy stylować przy znaczniku z wykorzystaniem atrybutu style. Nazywamy to stylem inlie: <br />
+                Przy znaczniku ( w środku <>) wpisujemy, np. style="color:yellow;", treść i zamknięcie znacznika bez
+                    zmian.
+            </p>
+            <br /> Można wpisywać więcej niż jedną własność w jednym znaczniku: color, background. Jednak takie
+            stylowanie przy znacznikach wydłuża kod i powoduje bałagan.
+            <header>
+                <h2> Stylowanie "class" </h2>
+            </header>
+            <p>
+                Dodajemy go w html, jednak ma przełożenie na css. <br />
+                W html przy znaczniku wpisujemy class="nazwa", a w css .nazwa{właściwość:wartość;} <br />
+                <b> Ważne: nazwa w style.css poprzedzona "." kropką</b> <br />
+            </p>
+            <header>
+                <h2> Stylowanie "id"</h2>
+            </header>
+            <p>
+                W html przy znaczniku wpisujemy: id="nazwa" a w style.css nazwę poprzedzamy hashem (<b># jest selektorem
+                    id</b>): #nazwa <br />
+                Możemy wykorzystywać istniejące id. <br />
+                Nie używamy jednego id do wielu elementów. <br />
+            </p>
+            <header>
+                <h2> Łączenie selektorów</h2>
+            </header>
+            <p>
+                Jeśli chcemy ostylować wszystko co znajduje się w danej grupie, np nav a. Wszystkie linki w nawigacji
+                będą ostylowane.<br />
+                Stylujemy po elementach <a href="#stylowanie">Stylowanie po elementach</a>
+            </p>
+            <header>
+                <h2> !important</h2>
+            </header>
+            Użycie Important nadpisuje wszystkie stylowania danego elementu zawarte w innych regułach {}. <br />
+            Stylowanie jest ujednolicone tylko do reguły w której jest <b> Important</b>. <br />
+            Jeśli nie mamy <b> ważnego </b> powodu, staramy się nie używać Important.
+            <header>
+                <h2>Specyficzność w CSS </h2>
+            </header>
+            W stylowaniu <strnog> ważność</strnog>reguły jest kolejno: Important, style ="", #name, .name, element.
+            <br />
+            Reguła, która ma wyższą specyficzność decyduje o charakterze stylowania. <br />
+            important <br />
+            style ="" /a href/ <br />
+            #name - id<br />
+            .name - klasa (class) <br />
+            element <br />
+            <b> Jeśli specyficzność jest równa - pierwszeństwo ma selektor <i>bliżej</i> elementu</b>
+
+        </section>
+
+    </main>
+    <footer>
+        <h3> Pamiętaj</h3>
+        Po każdej zmianie możesz odświeżyć stronę i obserwować zmiany F5 <a href="#top">Wróć na górę strony</a>
+    </footer>
+</body>
+
+</html>
