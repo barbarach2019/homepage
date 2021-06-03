@@ -1,7 +1,7 @@
 const name = 'Basia';
 const age = 45;
 
-alert('cześć');
+#alert('cześć');
 console.log('witaj');
 console.log(name);
 console.log(age);
