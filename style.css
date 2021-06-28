@@ -16,6 +16,15 @@ h3{
 #top{
     background:rgb(170, 236, 174);
 }
-nav a {
-    color:rgb(1, 29, 1);
+
+.navigation{
+    background:rgb(236, 170, 184);
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.navigation__link {
+    color: seashell;
+    display: inline-block;
+    margin-right: 10px;
 }

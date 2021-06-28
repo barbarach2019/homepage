@@ -1,59 +1,59 @@
 <!DOCTYPE html>
 <html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WTF</title>
+     
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WTF</title> 
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
-
-<body>
+  <body>
     <header>
-        <nav>
-            <a href="index.html">Strona główna- WTF</a>
-            <a href="nauka-html.html">Nauka HTML</a>
-            <a href="nauka-css.html">Nauka CSS</a>
-            <a href="nauka-git.html"> Nauka GIT i GITHUB</a>
-        </nav>
+      <nav class="navigation">
+        <a class="navigation__link navigation__link--homepage" href="index.html"
+          >Strona główna- WTF</a
+        >
+        <a class="navigation__link" href="nauka-html.html">Nauka HTML</a>
+        <a class="navigation__link" href="nauka-css.html">Nauka CSS</a>
+        <a class="navigation__link" href="nauka-git.html"> Nauka GIT i GITHUB</a>
+      </nav>
     </header>
     <main>
+      <header>
+        <h1 class="H1">Na miły początek</h1>
+        <img src="las-w-sloiku.jpg" alt="Las w słoiku" />
+      </header>
+      <header id="top">
+        <h1>TWORZENIE PLIKU HTML</h1>
+      </header>
+      uruchomienie szkieletu strony = "body" poprzez "!+TAB" <br />
+      zamiana lang z "en" na "pl"
+      <section>
         <header>
-            <h1 class="H1"> Na miły początek </h1>
-            <img src="las-w-sloiku.jpg" alt="Las w słoiku" />
+          <h2>Praktycznie uwagi</h2>
         </header>
-        <header id="top">
-            <h1>
-                TWORZENIE PLIKU HTML
-            </h1>
+        Zapisujemy zmiany w programie ctl + S <br />
+        Na bieżąco formatujemy dokument: ctr + shift + P i wybieramy
+        <b>"Format Dokument "</b> <br />
+        Sprawdzamy poprawność kodu w validorze, na:
+        <a href="https://validator.w3.org/nu/#textarea"> validator</a>
+      </section>
+      <section>
+        <header>
+          <h2>CSS</h2>
         </header>
-        uruchomienie szkieletu strony = "body" poprzez "!+TAB" <br />
-        zamiana lang z "en" na "pl"
-        <section>
-            <header>
-                <h2>
-                    Praktycznie uwagi
-                </h2>
-            </header>
-            Zapisujemy zmiany w programie ctl + S <br />
-            Na bieżąco formatujemy dokument: ctr + shift + P i wybieramy <b>"Format Dokument "</b> <br />
-            Sprawdzamy poprawność kodu w validorze, na: <a href="https://validator.w3.org/nu/#textarea"> validator</a>
-
-        </section>
-        <section>
-            <header>
-                <h2> CSS </h2>
-            </header>
-            Style umieszczamy w "head" lub w zewnętrznym arkuszu stylów.
-            <br />Dodajemy kolejny plik style.css. W html wklejamy znacznik: link href.....
-        </section>
+        Style umieszczamy w "head" lub w zewnętrznym arkuszu stylów.
+        <br />Dodajemy kolejny plik style.css. W html wklejamy znacznik: link
+        href.....
+      </section>
     </main>
     <footer>
-        <h3> Pamiętaj!!!</h3>
-        Po każdej zmianie możesz odświeżyć stronę i obserwować zmiany (za pomocą skrótu F5) <a href="#top">Wróć na górę strony</a>
+      <h3>Pamiętaj!!!</h3>
+      Po każdej zmianie możesz odświeżyć stronę i obserwować zmiany (za pomocą
+      skrótu F5) <a href="#top">Wróć na górę strony</a>
     </footer>
     <script src="main.js"></script>
-</body>
-
+  </body>
 </html>
